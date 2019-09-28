@@ -9,7 +9,7 @@ An example workflow to list clusters on Google Cloud Platform:
 on: push
 name: Run gcloud command
 jobs:
-  gCPAuthenticate:
+  GCPAuthenticate:
     name: GCP Authenticate
     runs-on: ubuntu-latest
     steps:
